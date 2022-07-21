@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css%22/%3E
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 
 <div class="w3-card w3-panel w3-row w3-display-topmiddle">
     <div class="w3-card">
