@@ -14,7 +14,7 @@
 
 
 <div class="w3-opacity-off w3-card-4 w3-display-middle" style="Height:70%;">
-<img src="Page.gif">
+<img src="Issues/1/Page.gif">
 </div>
 
 
