@@ -5,32 +5,48 @@
 		margin-left: 25px;
 		margin-right: 25px;
 	}
+	
+	button {
+		
+	}
 </style>
 
 <body class="w3-deep-purple">
 
+	<!-- Header -->
 	<div class="w3-display-topmiddle" style="width:95%">
 		<div class="w3-light-grey w3-card w3-panel">
 			<button class="w3-button"> Exodus </button>
 			<button class="w3-button" style="float: right;"> Other </button>
 		</div>
+
+		<!-- Issue Bar -->
 		<div class="w3-light-grey w3-card w3-panel side-padding">
 			Issues:
 			<button class="w3-button"> 1 </button>
+			<button class="w3-button" style="float: right;"> Close </button>
 		</div>
 	</div>
 
-	<div class="w3-display-middle" style="width: 50%;">
+
+	<div class="w3-display-middle" >
 		<div class="w3-light-grey w3-card-4" style="width:calc(height/2);">
-			Test
+			<img id="PageContainer" src="/home/spy/Sprite-1.gif">
 		</div>
-		
+
+
 		<div class="w3-light-grey w3-panel w3-card-4 side-padding">
-			<button class="w3-button" style="float: left;"> Back </button>
-			<button class="w3-button" style="float: right;"> Next </button>
+			<button id="PageButton-1" class="w3-button" style="float: left; " onclick=NextPage(id) > Back </button>
+			<button id="PageButton-2" class="w3-button" style="float: right;" onclick=NextPage(id) > Next </button>
 		</div>
 
 	</div>
-
 
 </body>
+
+<script>
+	function NextPage(buttonId) {
+		window.alert("Test");
+		document.getElementById(buttonId). = "Changed?";
+	}
+</script>
